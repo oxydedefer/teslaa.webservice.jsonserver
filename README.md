@@ -16,6 +16,6 @@ docker build -t teslaa_jsonserver .
 docker run --name teslaa_json_webserver -d -p 80:80 -v ${PWD}/data/db.json:/data/db.json clue/json-server
 ```
 
-Now go to [localhost](localhost)
+Now go to [localhost](http://localhost)
 
 
