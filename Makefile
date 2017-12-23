@@ -1,5 +1,5 @@
 run:
-	docker run --name teslaa_json_webserver -d -p 80:80 -v ${PWD}/data/db.json:/data/db.json clue/json-server
+	docker run --name teslaa_json_webserver -d -p 80:80 -v ${PWD}/data/db.json:/data/db.json teslaa_jsonserver
 start: run
 	docker start teslaa_json_webserver
 stop:
