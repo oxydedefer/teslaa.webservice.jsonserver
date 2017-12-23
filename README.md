@@ -7,7 +7,6 @@ Docker webserver json. Inspired by [this repos](https://github.com/clue/docker-j
 To start docker:
 
 ```
-make build
 make start
 ```
 or 
